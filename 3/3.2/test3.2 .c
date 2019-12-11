@@ -4,7 +4,7 @@
 int main() {
 	int a = 0;
 	int b = 0;
-	for (a = 101; a <= 200; a += 1) {
+	for (a = 100; a <= 200; a += 1) {
 		int c = 0;
 		for (c = 2; c <= a - 1; c++) {
 			if (a % c == 0)
