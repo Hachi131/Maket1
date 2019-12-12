@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
-//打印100-200之间的素数
+//麓貌脫隆100-200脰庐录盲碌脛脣脴脢媒
 int main() {
 	int a = 0;
 	int b = 0;
-	for (a = 101; a <= 200; a += 2) {
+	for (a = 100; a <= 200; a += 1) {
 		int c = 0;
 		for (c = 2; c <= a - 1; c++) {
 			if (a % c == 0)
@@ -12,7 +12,7 @@ int main() {
 		}
 		if (a == c) {
 			b++;
-			printf("%d ", a);
+			printf("%d\n", a);
 		}
 	}
 	printf("\nb=%d", b);
